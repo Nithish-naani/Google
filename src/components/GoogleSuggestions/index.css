@@ -1,0 +1,44 @@
+/* Write your CSS here */
+
+.container {
+  background-color: #fff;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.search-container {
+  /* height: 50vh; */
+  width: 20vw;
+  border-radius: 9px;
+  box-shadow: aliceblue;
+  margin-top: 15px;
+}
+.google {
+  height: 55px;
+  width: 150px;
+}
+.icon-container {
+  display: flex;
+  justify-content: flex-start;
+}
+.icon {
+  height: 3vh;
+  width: 1vw;
+  color: #bfbfbf;
+}
+.search-input {
+  color: #bfbfbf;
+  padding-left: 15px;
+  border-radius: 5px;
+  border-style: none;
+  border-color: #fff;
+}
+.suggestions-list {
+  padding-left: 12px;
+  padding-right: 32px;
+  padding-bottom: 12px;
+  margin: 0;
+}
